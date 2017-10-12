@@ -2,8 +2,11 @@ package main
 
 import(
 	"fmt"
+	"github.com/facebookgo/clock"
 )
 
 func main(){
-	fmt.Println("hello world")
+	cl := clock.NewMock()
+	
+	fmt.Println("hello world",cl.Now())
 }
