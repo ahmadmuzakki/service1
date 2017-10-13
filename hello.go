@@ -4,6 +4,6 @@ import(
 	"fmt"
 )
 
-func PrintSometing(){
+func PrintSometings(){
 	fmt.Println("hello bitches")
 }
